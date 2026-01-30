@@ -1,0 +1,90 @@
+{
+    "info": {
+        "_postman_id": "admin-service-collection",
+        "name": "Admin Microservice",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Login",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"email\": \"admin@gmail.com\",\n    \"password\": \"ADMIN\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:5050/api/admin/login",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5050",
+                    "path": [
+                        "api",
+                        "admin",
+                        "login"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Get Restaurants",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5050/api/admin/restaurants",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5050",
+                    "path": [
+                        "api",
+                        "admin",
+                        "restaurants"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Add Restaurant",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"New Place\",\n    \"cuisine\": \"Indian\",\n    \"rating\": 4.8,\n    \"img\": \"http://example.com/img.jpg\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:5050/api/admin/restaurants",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "5050",
+                    "path": [
+                        "api",
+                        "admin",
+                        "restaurants"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
