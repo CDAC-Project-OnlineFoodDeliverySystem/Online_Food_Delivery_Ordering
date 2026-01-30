@@ -1,0 +1,14 @@
+/* FIX VITE DEFAULT LAYOUT */
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* REMOVE UNWANTED SPACING */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
