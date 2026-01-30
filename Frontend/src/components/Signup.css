@@ -1,0 +1,8 @@
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(255, 71, 87, 0.1);
+}
+
+.is-invalid {
+  border-color: #ff4757 !important;
+}
