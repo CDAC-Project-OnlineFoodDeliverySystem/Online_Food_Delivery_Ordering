@@ -1,0 +1,12 @@
+com\fooddelivery\customer\model\Role.class
+com\fooddelivery\customer\config\JwtAuthFilter.class
+com\fooddelivery\customer\model\Customer.class
+com\fooddelivery\customer\config\SecurityConfig.class
+com\fooddelivery\customer\controller\CustomerResponse$CustomerResponseBuilder.class
+com\fooddelivery\customer\CustomerServiceApplication.class
+com\fooddelivery\customer\model\Customer$CustomerBuilder.class
+com\fooddelivery\customer\repository\CustomerRepository.class
+com\fooddelivery\customer\controller\CustomerController.class
+com\fooddelivery\customer\controller\CustomerResponse.class
+com\fooddelivery\customer\config\ApplicationConfig.class
+com\fooddelivery\customer\config\JwtService.class
