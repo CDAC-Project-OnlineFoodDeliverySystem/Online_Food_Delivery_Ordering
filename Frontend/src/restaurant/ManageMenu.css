@@ -1,0 +1,29 @@
+.manage-menu-page {
+    background-color: var(--bg-light);
+}
+
+.item-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.table thead th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-grey);
+    border-top: none;
+    padding: 1.25rem 1rem;
+}
+
+.table tbody td {
+    padding: 1.25rem 1rem;
+    font-size: 0.95rem;
+}
+
+.badge {
+    padding: 0.5rem 0.8rem;
+    font-weight: 500;
+}
