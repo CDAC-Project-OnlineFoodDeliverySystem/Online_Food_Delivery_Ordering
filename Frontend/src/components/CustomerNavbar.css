@@ -1,0 +1,44 @@
+.custom-navbar {
+  background-color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+
+.brand-logo {
+  letter-spacing: -0.5px;
+  color: #ff4757 !important;
+  /* Premium Red */
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  margin-right: 8px;
+}
+
+.nav-item-link {
+  font-weight: 500;
+  color: #2f3542 !important;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-item-link:hover,
+.nav-item-link.active {
+  color: #ff4757 !important;
+}
+
+.signup-btn {
+  background-color: #ff4757 !important;
+  border: none !important;
+  font-weight: 600;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #ff6b81 !important;
+  transform: translateY(-2px);
+}
+
+.logout-btn {
+  font-weight: 600;
+}
